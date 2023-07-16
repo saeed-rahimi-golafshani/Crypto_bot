@@ -11,11 +11,16 @@ bot.command("crypto", (ctx) => {
         reply_markup: {
             inline_keyboard: [
                 [
-                    {text: "قیمت رمز ارزها", callback_data: "pricing"}
+                    {text: "one", callback_data: "one"},
+                    {text: "two", callback_data: "two"}
                 ],
                 [
-                    {text: "CoinList(CryptoCompare)", url: "https://www.cryptocompare.com/ "}
-                ]                
+                    {text: "three", callback_data: "three"},
+                    {text: "four", callback_data: "four"}
+                ],
+                [
+                    {text: "five", callback_data: "five"}
+                ]
             ]
         }
     })
